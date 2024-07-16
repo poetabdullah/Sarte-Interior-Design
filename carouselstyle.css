@@ -1,0 +1,257 @@
+/* Author: Hamda */
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+/* Header Section */
+/*Navigation Bar*/
+.nav {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  background-color: #24282d;
+  top: 0;
+  position: sticky;
+  z-index: 1;
+  width: 100%;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+.home-link {
+  margin-left: 90px;
+}
+.nav-link:hover {
+  color: grey;
+}
+/*Search Bar*/
+.btn-light {
+  background-color: grey;
+  color: black;
+  font-weight: bold;
+}
+.button {
+  margin-left: 280px;
+}
+/*Call to Action*/
+.title {
+  margin-top: 50px;
+}
+.calltoaction {
+  background-color: #f4f7f7;
+  margin: 0px;
+  height: 30px;
+}
+.callstoaction {
+  padding-top: 10px;
+  font-family: inter;
+  font-size: 22px;
+  color: white;
+  text-decoration: none;
+  margin-left: 30px;
+}
+/*Search Bar*/
+.btn-light {
+  background-color: grey;
+  color: black;
+  font-weight: bold;
+}
+.button {
+  margin-left: 280px;
+}
+/*Website Title*/
+.sarte {
+  text-align: center;
+  color: #324f57;
+  font-weight: large;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-top: -40px;
+}
+/*Logo*/
+.logo {
+  background-color: #f4f7f7;
+  text-align: center;
+  height: 140px;
+}
+.logos {
+  border-radius: 250px;
+  alt: logo--;
+  width: 120px;
+  height: 120px;
+}
+/*Trends Page */
+/*Headings */
+
+.col-md-12 h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #444;
+  font-weight: bolder;
+  font-size: 450%;
+  margin-top: 40px;
+}
+
+/*Carousel Styling */
+.carousel {
+  height: 500px;
+  overflow: hidden;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 500px;
+  width: 500px;
+}
+.carousel-inner {
+  position: static;
+}
+.card-text {
+  position: absolute;
+  bottom: 14%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  color: #444;
+}
+.card-title {
+  position: absolute;
+  top: 10%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 200%;
+  color: #444;
+  font-style: bolder;
+}
+
+/*Searched items styling*/
+.item {
+  font-size: 150%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.item p {
+  margin-bottom: 25px;
+  color: #444;
+}
+/* Searched sections headings*/
+.heading-container {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  background-color: #f4f7f7;
+}
+.main-heading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 200%;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #444;
+}
+.sub-heading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 150%;
+  color: #444;
+}
+.heading-container2 {
+  text-align: center;
+  margin-top: 40px;
+}
+.heading-container2 h1,
+.heading-container2 h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+/* about us page */
+
+/*About us section */
+.about-section {
+  padding: 50px 0;
+  background-color: #f8f9fa;
+}
+.about-heading {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #444;
+  font-weight: bolder;
+  font-size: 67px;
+}
+.about-image {
+  height: 500px;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto 30px;
+}
+.our-story {
+  margin-bottom: 50px;
+  text-align: justify;
+}
+.our-story h3 {
+  color: #8699a1;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: bolder;
+}
+.our-approach {
+  margin-bottom: 50px;
+  text-align: justify;
+}
+.our-approach h3 {
+  color: #8699a1;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: bolder;
+}
+/*banner section */
+.service-section {
+  background-image: url("https://media.designcafe.com/wp-content/uploads/2019/12/17110953/drawing-room-design-ideas.jpg");
+  background-size: cover;
+  background-position: center;
+  color: rgb(255, 255, 255);
+  padding: 100px 0;
+}
+
+.service-content {
+  text-align: center;
+}
+
+.service-heading {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 38px;
+  font-weight: bolder;
+  color: white;
+}
+.service-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 30px;
+}
+/*contact form */
+.mt-5 {
+  color: #8699a1;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: bolder;
+  background-color: white;
+}
+.col-md-6 h2 {
+  color: #8699a1;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: bolder;
+}
+.btn-primary {
+  background-color: #8699a1;
+  border: none;
+}
+.footer {
+  background-color: #9aa8ae;
+}
+.mx-1 {
+  border-radius: 250px;
+  height: 42px; /*Icon height*/
+}

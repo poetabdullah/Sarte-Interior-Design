@@ -1,0 +1,447 @@
+/* Author: Abdullah Imran; GitHub: poetabdullah */
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+/* Header Section */
+/*Navigation Bar*/
+.nav {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  background-color: #24282d;
+  top: 0;
+  position: sticky;
+  z-index: 1;
+  width: 100%;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+.home-link {
+  margin-left: 90px;
+}
+.nav-link:hover {
+  color: grey;
+}
+/*Search Bar*/
+.btn-light {
+  background-color: grey;
+  color: black;
+  font-weight: bold;
+}
+.button {
+  margin-left: 280px;
+}
+/*Call to Action*/
+.title {
+  margin-top: 50px;
+}
+.calltoaction {
+  background-color: #f4f7f7;
+  margin: 0px;
+  height: 30px;
+}
+.callstoaction {
+  padding-top: 10px;
+  font-family: inter;
+  font-size: 22px;
+  color: white;
+  text-decoration: none;
+  margin-left: 30px;
+}
+/*Website Title*/
+.sarte {
+  text-align: center;
+  color: #324f57;
+  font-weight: large;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-top: -40px;
+}
+/*Logo*/
+.logo {
+  background-color: #f4f7f7;
+  text-align: center;
+  height: 140px;
+}
+.logos {
+  border-radius: 250px;
+  alt: logo--;
+  width: 120px;
+  height: 120px;
+}
+
+/*Reviews Page*/
+
+/* Styling of reviews.html Starts from here: */
+/* -------------  /*
+/* Page's top heading */
+.top-heading {
+  margin-bottom: 30px;
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 150px;
+}
+
+.customer-reviews-title {
+  color: #324f57;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+/* Story cards  heading */
+
+.story-title {
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+.story-title h2 {
+  color: #444;
+  font-size: 38px;
+}
+
+/* Story cards */
+.card-container {
+  /* background-color: #a5b6bc; /* Background color for the entire card */
+  /*border-radius: 30px; /* Border radius for the entire card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for the entire card */
+  padding: 10px;
+  margin-top: 10px; /* Margin for the entire card */
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.story-container {
+  display: flex;
+  /* Card elements will be flexible here */
+  justify-content: space-between;
+  /* Distributes the flex items evenly */
+  align-items: center;
+}
+
+.img-div1,
+.img-div2 {
+  width: 50%;
+  /* Occupies half of the width of the the main card container */
+}
+
+.img-div1 img,
+.img-div2 img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.story-div1,
+.story-div2 {
+  width: 50%;
+  text-align: justify;
+}
+
+.story-div1 p,
+.story-div2 p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: black;
+}
+
+/* Customer Reviews Heading */
+.review-heading {
+  font-size: 38px;
+  font-style: bold;
+  color: #444;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+.box {
+  box-sizing: border-box;
+  /* border-box property tells the browser to include the width and height of an element's border and padding in the values specified for the element's width and height. */
+  border: 20px solid transparent;
+  background-clip: padding-box;
+  /*  background will be visible within the content and padding areas of the element, but not outside of the padding area. */
+  /* Makes it possible to have spacing between 2 left and right reviews of the customers. */
+}
+
+.profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.review-text {
+  text-align: justify; /* Justify the review text */
+}
+
+.stars {
+  margin-left: auto; /* Align stars to the right side */
+}
+
+.profile-name {
+  margin-left: 10px; /* Adjust margin to add space between profile image and name */
+}
+
+/* Metrics */
+/* Container and Row */
+.container-fluid {
+  padding: 0; /* Remove default padding */
+}
+
+.row {
+  margin: 0; /* Remove default margin */
+}
+
+/* Column */
+.col-lg-8 {
+  padding: 0; /* Remove default padding */
+}
+
+/* Metrics */
+.metrics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  margin-top: 12px;
+  width: 100%; /* Set width to 100% */
+}
+
+/* Scores and Bars Container */
+.scores-bars-container {
+  display: flex;
+  flex-direction: column; /* Vertical alignment */
+  align-items: flex-start; /* Vertical alignment of the elements  in flexbox */
+  border-radius: 13px;
+  padding: 30px;
+  background-color: #b6b6b4;
+  width: 100%; /* Set width to 100%  for responsiveness of the score bars */
+}
+
+/* Ensure equal width for all score bars */
+.score-bar {
+  display: flex;
+  align-items: center;
+  width: 100%; /* Set width to 100% */
+  margin-bottom: 15px; /* Increased margin */
+}
+
+/* Score */
+.score {
+  width: 30px;
+  text-align: right;
+  /* This alignment is surely weird, but it was extremely important to resolve the alignment issues within the metrics container */
+  margin-right: 10px;
+}
+
+/* Score Bar Container */
+.score-bar-container {
+  flex: 1; /* Let it take remaining space horizontally */
+}
+
+/* Horizontal Bars */
+.progress {
+  width: 100%;
+  height: 100%;
+}
+
+/* Stars */
+.stars-container1 {
+  display: flex;
+  /* child elements become flexible in terms of their size and positioning within the container */
+  justify-content: flex-end; /* Align stars to the right, elements inside the container will be laid out horizontally, extra  space on left side. */
+  min-width: 30px; /* Set minimum width for stars container */
+}
+
+/* Customer Feedback */
+
+/* Heading */
+.review-write-heading {
+  /* Your custom styles here */
+  margin-top: 20px; /* Example: Increase top margin */
+  margin-left: 10px;
+  font-size: 38px;
+  font-style: bold;
+  color: #444;
+}
+
+/* Stars */
+.star2 {
+  font-size: 30px; /* Increase the size of the stars */
+  cursor: pointer;
+}
+
+/* Textarea */
+.form-control {
+  border-color: #ced4da; /* Default border color */
+}
+
+.btn-light {
+  background-color: #a5b6bc !important;
+  border-radius: 10px !important;
+}
+
+.btn-light:hover {
+  background-color: #324f57 !important;
+  color: white !important;
+}
+
+.bg-custom {
+  background-color: #f4f7f7;
+}
+
+/* Styling of reviews.html  Ends here*/
+
+/* ---------------------------------------------------------------- */
+/* ================================================================= */
+
+/* Styling of services.html Starts from here: */
+/* Services Page Content */
+/* The top headline */
+/* Adjusting headline margins */
+.headline {
+  color: #223b44;
+  font-size: 50px;
+  margin-top: 200px; /* Adjust the top margin as needed */
+  font-weight: bold;
+}
+/* The headline above slideshow */
+.residential {
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #444;
+  font-size: 38px;
+  font-style: bold;
+}
+
+/* Adjusting carousel item image size and border radius */
+.carousel-item img {
+  max-width: 50%; /* Adjust image width */
+  height: auto; /* Maintains aspect ratio */
+  border-radius: 30px; /* Adjust border radius */
+}
+
+/* Text alignment in main container */
+.main-container {
+  text-align: left; /* Align text to the left */
+}
+/* Caption for each image */
+.image-text {
+  margin-bottom: -20px; /* Adjust margin as needed */
+  font-size: calc(
+    1vw + 1vh
+  ); /* Dynamic font size based on viewport width and height of the screen */
+  text-align: center;
+  color: white; /* Set text color */
+}
+
+/* Residential Services Content */
+
+.main-background {
+  background-color: #abb8c3;
+  margin: 20px; /* Adjust margins as needed */
+  padding: 20px; /* Adjust padding as needed */
+  border-radius: 30px;
+}
+
+.main-background2 {
+  background-color: #c2cbcb;
+  margin: 20px; /* Adjust margins as needed */
+  padding: 20px; /* Adjust padding as needed */
+  border-radius: 30px;
+}
+
+.column {
+  width: 100%;
+  height: 25%;
+  margin-top: 10px; /* Adjust top margin as needed */
+  margin-bottom: 10px; /* Adjust bottom margin as needed */
+  border-radius: 15px;
+  background-color: #c2cbcb;
+}
+
+.column2 {
+  width: 100%;
+  height: 25%;
+  margin-top: 10px; /* Adjust top margin as needed */
+  margin-bottom: 10px; /* Adjust bottom margin as needed */
+  border-radius: 15px;
+  background-color: #abb8c3;
+}
+
+.column p {
+  margin-left: 15px;
+  margin-right: 10px;
+  text-align: justify;
+  font-family: Georgia, Times New Roman, Times, serif;
+}
+
+.column2 p {
+  margin-left: 15px;
+  margin-right: 10px;
+  text-align: justify;
+  font-family: Georgia, Times New Roman, Times, serif;
+}
+/* Services */
+.service-box {
+  height: 100%;
+}
+.service-box h4 {
+  font-size: bold;
+  color: #404040;
+  font-size: 22px;
+}
+
+.service-box h5 {
+  font-size: bold;
+  color: #404040;
+  font-size: 22px;
+}
+.sub-sub-heading {
+  color: #3c3a3a;
+}
+.left {
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: justify;
+}
+
+.right {
+  margin-bottom: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align: justify;
+}
+
+/* How do we plan our stuff? */
+
+.left2 {
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: justify;
+  background-color: #c7d6e2;
+}
+
+.right2 {
+  margin-bottom: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align: justify;
+  background-color: #c7d6e2;
+}
+/* Styling of services.html  Ends here*/
+.footer {
+  background-color: #9aa8ae;
+}
+.mx-1 {
+  border-radius: 250px;
+  height: 42px; /*Icon height*/
+}
