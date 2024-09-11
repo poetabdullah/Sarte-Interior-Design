@@ -2,6 +2,10 @@
 
 Sarte Interior Designs is a simple static website that showcases the services and business of "Sarte Interior Design". This website can serve as a design reference for enhancing other websites. It is built using HTML, CSS, and Bootstrap.
 
+## Source Code:
+
+The source code can be accessed from **master** branch.
+
 ## Pages
 
 ### 1. Home (index.html)
