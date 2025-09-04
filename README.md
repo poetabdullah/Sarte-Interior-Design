@@ -1,63 +1,98 @@
-# Sarte Interior Designs
 
-Sarte Interior Designs is a simple static website that showcases the services and business of "Sarte Interior Design". This website can serve as a design reference for enhancing other websites. It is built using HTML, CSS, and Bootstrap.
+# 🏠 Sarte Interior Designs
 
-## Source Code:
+**Sarte Interior Designs** is a **simple, elegant static website** that showcases the services and portfolio of *Sarte Interior Design*. Built with **HTML, CSS, and Bootstrap**, this project can also serve as a **design reference template** for enhancing other websites.
 
-The source code can be accessed from **master** branch.
+---
 
-## Pages
+## 📂 Source Code
 
-### 1. Home (index.html)
-- **Description**: Displays the main information about the website and the business.
-- **Features**: Introductory content about Sarte Interior Design.
+The complete source code is available in the **`master`** branch.
 
-### 2. Portfolio
-- **Description**: Showcases designs for restaurants, offices, closets, and bedrooms.
-- **Features**: Customer reviews and testimonials acting as a portfolio.
+---
 
-### 3. Trends
-- **Description**: Highlights some of the trending interior designs.
-- **Features**: Showcases modern and popular design trends.
+## 📑 Pages Overview
 
-### 4. About Us
-- **Description**: Provides the history and backstory of Sarte Interior Design.
-- **Features**: Information about the company's background and contact details.
+### 1. **Home (`index.html`)**
 
-### 5. Services
-- **Description**: Lists popular residential, commercial, and dining packages.
-- **Features**: Details about the approach to designing operations and the services offered.
+* **Description**: Highlights the main information about the business.
+* **Features**: Introductory content about Sarte Interior Design.
 
-### 6. Reviews
-- **Description**: Displays customer stories and reviews.
-- **Features**: Testimonials and feedback from customers.
+### 2. **Portfolio**
 
-## Technologies Used
-- **HTML**: For structuring the content.
-- **CSS**: For styling the website.
-- **Bootstrap**: For responsive design and layout.
+* **Description**: Displays interior design work across categories.
+* **Features**: Restaurants, offices, closets, bedrooms, plus customer testimonials.
 
-## How to Use
-1. Clone the repository:
+### 3. **Trends**
+
+* **Description**: Focuses on trending and modern interior design ideas.
+* **Features**: Highlights the latest styles and popular design elements.
+
+### 4. **About Us**
+
+* **Description**: Shares the company’s history and vision.
+* **Features**: Company background, story, and contact details.
+
+### 5. **Services**
+
+* **Description**: Lists interior design packages.
+* **Features**: Residential, commercial, and dining services with detailed approach.
+
+### 6. **Reviews**
+
+* **Description**: Showcases client feedback.
+* **Features**: Testimonials and customer stories.
+
+---
+
+## 🛠️ Technologies Used
+
+* **HTML** → For content structure.
+* **CSS** → For styling and customization.
+* **Bootstrap** → For responsive layouts and mobile optimization.
+
+---
+
+## 🚀 How to Use
+
+1. **Clone the repository**
+
    ```bash
    git clone https://github.com/yourusername/sarte-interior-designs.git
-2. Navigate to the project directory
+   ```
+
+2. **Navigate to the project directory**
+
    ```bash
    cd sarte-interior-designs
-3. Open index.html in your web browser to view the homepage. Follow similar procedures for other pages
+   ```
 
-## Contributing
-If you would like to contribute to this project, please fork the repository and submit a pull request.
+3. **Open the homepage**
 
-## Contributions
+   * Open `index.html` in your browser.
+   * Use the same process to explore other pages.
 
-@AmbreenAmbi04 : Homepage and Portfolio Pages
+---
 
-@hamda: Trends and About Us pages
+## 🤝 Contributing
 
-@poetabdullah : Services and Reviews pages
+Contributions are welcome! To contribute:
 
-## Contact
-For any inquiries or feedback, please contact us.
+1. **Fork** the repository.
+2. Create a new branch for your feature/fix.
+3. Commit your changes.
+4. Submit a **pull request**.
 
+---
 
+## 👥 Contributions
+
+* **@poetabdullah** → Services & Reviews Pages
+* **@AmbreenAmbi04** → Homepage & Portfolio Pages
+* **@hamda** → Trends & About Us Pages
+
+---
+
+## 📬 Contact
+
+For inquiries or feedback, please reach out to us.
